@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Form Validation</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  
+    <nav class="navbar navbar-dark bg-dark mb-3">
+        <a href="#" class="navbar-brand">JS Form Validation</a>
+    </nav>
+
+    <!-- Form Validation -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 m-auto">
+                <div class="card">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h3>Register Here</h3>
+                    </div>
+                    <div class="card-body bg-light-primary">
+                        <form id="register-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="username" placeholder="Username">
+                                <div id="username-feedback"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                <div id="email-feedback"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                                <div id="password-feedback"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="c-password" placeholder="Confirm Password">
+                                <div id="c-password-feedback"></div>
+                            </div>
+
+                            <div class="text-center">
+                                <input type="submit" value="Register" class="btn btn-primary">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Bootstrap JS Files -->
+
+<script src="../bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap/js/popper.min.js"></script>
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../bootstrap/js/mdb.js"></script>
+
+<!-- Local JS File-->
+<script src="app.js"></script> 
+
+</body>
+</html>
